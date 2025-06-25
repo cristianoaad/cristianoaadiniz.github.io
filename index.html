@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfólio Cristiano Diniz</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        color: #333;
+      }
+
+      header {
+        background-color: #1a73e8;
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+
+      section {
+        margin-bottom: 3rem;
+      }
+
+      h2 {
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+        color: #1a73e8;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      .case {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        margin-bottom: 2rem;
+      }
+
+      .case h3 {
+        margin-top: 0;
+        color: #333;
+      }
+
+      iframe {
+        width: 100%;
+        height: 400px;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 8px;
+      }
+
+      .footer {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #888;
+        margin: 3rem 0 1rem;
+      }
+
+      a {
+        color: #1a73e8;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Portfólio Cristiano Diniz</h1>
+    </header>
+
+    <div class="container">
+      <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>
+          Sou um profissional apaixonado por dados, com experiência em consultoria, finanças e tecnologia. Atuo na área de dados ponta a ponta: da extração e modelagem até a análise e apresentação de insights para o negócio. Tenho domínio de ferramentas como Python, SQL, Power BI e experiência prática com Machine Learning, storytelling com dados e projetos analíticos em diferentes setores.
+        </p>
+      </section>
+
+      <section id="cases">
+        <h2>Projetos e Cases</h2>
+
+        <div class="case">
+          <h3>📊 Análise de Desempenho de Canais do YouTube</h3>
+          <p>
+            Projeto de coleta automatizada de comentários via YouTube API, análise de engajamento e categorização de sentimentos. Ferramentas: Python, Pandas, Streamlit.
+          </p>
+          <a href="https://nbviewer.org/github/seuusuario/repositorio/blob/main/youtube_analysis.ipynb" target="_blank">🔗 Ver notebook no nbviewer</a>
+          <iframe src="https://app.powerbi.com/view?r=SEU-LINK-AQUI" allowfullscreen></iframe>
+        </div>
+
+        <div class="case">
+          <h3>📈 Modelo de Precificação Otimizada para Varejo</h3>
+          <p>
+            Desenvolvimento de modelo de elasticidade de preços com regressão linear, simulação de cenários de precificação e impacto na margem.
+          </p>
+          <iframe src="https://docs.google.com/presentation/d/e/SEU-SLIDE-ID/embed?start=false&loop=false" allowfullscreen></iframe>
+          <a href="https://colab.research.google.com/github/seuusuario/repositorio/blob/main/preco_modelo.ipynb" target="_blank">📓 Acessar notebook no Google Colab</a>
+        </div>
+
+        <!-- Modelo reutilizável para novos cases -->
+        <div class="case">
+          <h3>TÍTULO DO NOVO CASE</h3>
+          <p>
+            Descrição do projeto, ferramentas utilizadas, objetivos e impacto gerado.
+          </p>
+          <iframe src="LINK-EMBED" allowfullscreen></iframe>
+          <a href="LINK-COMPLEMENTAR" target="_blank">🔗 Material complementar</a>
+        </div>
+      </section>
+
+      <div class="footer">
+        Desenvolvido por Cristiano Diniz • <a href="https://github.com/cristianoaadiniz" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/cristianoaadiniz" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </body>
+</html>
